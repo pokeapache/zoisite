@@ -1,0 +1,31 @@
+.headerimg {
+    z-index: 9;
+    position: relative;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: -88px;
+    margin-left: 40px;
+    margin-top: -99px;
+}
+.headerimg .img {
+    width:150px;
+}
+input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+input[type="checkbox"]:before {
+    content: url('https://i.imgur.com/E9cR0Df.png');
+    display: block;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+input[type="checkbox"]:checked:before {
+    content: url('https://i.imgur.com/iPuHwW1.png');
+}
